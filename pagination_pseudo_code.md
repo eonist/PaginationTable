@@ -14,7 +14,7 @@ class PaginationTable {
    /**
     * - Abstract: When the table has stopped deceleration after swipe-up
     */
-  func onScrollDecelerationEnded() {
+  func scrollViewDidEndDragging(scrollView: UIScrollView, willDecelerate decelerate: Bool) {
     guard isOnBottom && !isFetching else { return } // must have reached the absolute bottom and must not be already fetching
     PaginationTable.fetchData(range: (paginationIndex, paginationIndex + PaginationTable.paginationAmount)) {
       Dispatch.main.async { [weak self] in
@@ -45,6 +45,17 @@ extension PaginationTable {
       complete(newData)
     }
   }
+}
+ /**
+  * Getter
+  */
+extension PaginationTable{
+  /**
+   * Asserts if the table is scrolled all the way to the bottom
+   */
+   var isBottom: Bool {
+     return (self.contentOffset.y + self.frame.size.height) >= self.contentSize.height
+   }
 }
 ```
 ### View.swift
