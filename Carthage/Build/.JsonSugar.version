@@ -1,0 +1,10 @@
+{
+  "commitish" : "3b7b51365d5f93c25a3e70a99c122fabf82ba4ed",
+  "iOS" : [
+    {
+      "name" : "JSONSugar",
+      "hash" : "241313f87cf1837cef87a5889fcdbecfa8488bcb3ef610d5128672e8d672c22c",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    }
+  ]
+}

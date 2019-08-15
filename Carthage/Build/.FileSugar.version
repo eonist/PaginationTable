@@ -1,0 +1,10 @@
+{
+  "commitish" : "fe1e91c39ec1ae299d3253aa311f686dc8ef210c",
+  "iOS" : [
+    {
+      "name" : "FileSugar",
+      "hash" : "8c9186423bec2477227118f7cdcb6d0904c136997e19f9b7e0665efeb37bdb2b",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    }
+  ]
+}

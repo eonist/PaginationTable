@@ -1,0 +1,4 @@
+github "eonist/Spatial" "master"
+github "eonist/With" "master"
+github "eonist/JsonSugar" "master"
+github "eonist/NetworkSugar" "master"

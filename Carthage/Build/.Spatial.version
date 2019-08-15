@@ -1,0 +1,10 @@
+{
+  "commitish" : "8e38eedf2f1a353701b92693ebc2724289d41520",
+  "iOS" : [
+    {
+      "name" : "Spatial",
+      "hash" : "48860efe56e1c303685a46d28726f57cc96bc1a85f4b0924d08986e1516594fe",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    }
+  ]
+}
