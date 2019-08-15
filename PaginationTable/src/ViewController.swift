@@ -8,7 +8,7 @@ class ViewController: UIViewController {
     */
    override func viewWillAppear(_ animated: Bool) {
       super.viewWillAppear(animated)
-      let title = "Title"//AppDelegate.Titles.primary.localized
+      let title = "Title"
       navigationItem.title = title
    }
    override func viewDidLoad() {
