@@ -13,9 +13,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       return true
    }
 }
-// 🏀
-   // clean up ✅
-   // programmatic code ✅
-   // test
-   // make cell
-   // start adding the pseudo code

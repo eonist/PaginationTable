@@ -13,7 +13,6 @@ class ViewController: UIViewController {
    }
    override func viewDidLoad() {
       super.viewDidLoad()
-//      let strings: [String] = (0..<40).map { "Testing \($0)" }
       let table = Table(rowData: [], frame: .zero, style: .plain)
       view = table
       table.isFetching = true
@@ -23,7 +22,7 @@ class ViewController: UIViewController {
             table?.reloadData()
             table?.paginationIndex += Table.paginationAmount // set the new pagination index
             table?.isFetching = false
-            Swift.print("reload table complete")
+            Swift.print("reload table complete (init)")
          }
       }
    }
