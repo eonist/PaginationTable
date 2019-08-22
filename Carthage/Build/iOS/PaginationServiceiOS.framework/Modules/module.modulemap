@@ -1,0 +1,11 @@
+framework module PaginationServiceiOS {
+  umbrella header "PaginationServiceiOS.h"
+
+  export *
+  module * { export * }
+}
+
+module PaginationServiceiOS.Swift {
+    header "PaginationServiceiOS-Swift.h"
+    requires objc
+}

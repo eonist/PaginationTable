@@ -19,6 +19,9 @@
 		9D1C765122FC0A5E00120D6C /* TextCell+Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1C764B22FC0A5E00120D6C /* TextCell+Constant.swift */; };
 		9D1C765222FC0A5E00120D6C /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1C764C22FC0A5E00120D6C /* TextCell.swift */; };
 		9D1C765322FC0A5E00120D6C /* TextCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1C764D22FC0A5E00120D6C /* TextCellData.swift */; };
+		9D581E69230EB72700A9553D /* PaginationServiceiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D581E68230EB72700A9553D /* PaginationServiceiOS.framework */; };
+		9D581E6A230EB72700A9553D /* PaginationServiceiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D581E68230EB72700A9553D /* PaginationServiceiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D581E6C230EB78600A9553D /* TrackPaginationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D581E6B230EB78600A9553D /* TrackPaginationService.swift */; };
 		9DF07E2822F98C7700D9082D /* With.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF07E2622F98C7700D9082D /* With.framework */; };
 		9DF07E2922F98C7700D9082D /* With.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF07E2622F98C7700D9082D /* With.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9DF07E2A22F98C7700D9082D /* Spatial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF07E2722F98C7700D9082D /* Spatial.framework */; };
@@ -45,6 +48,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				9D581E6A230EB72700A9553D /* PaginationServiceiOS.framework in Embed Frameworks */,
 				9DF07E2922F98C7700D9082D /* With.framework in Embed Frameworks */,
 				9DF5806423054C8A005F336B /* FileSugar.framework in Embed Frameworks */,
 				9DF5806023054C8A005F336B /* JSONSugar.framework in Embed Frameworks */,
@@ -71,6 +75,8 @@
 		9D1C764B22FC0A5E00120D6C /* TextCell+Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextCell+Constant.swift"; sourceTree = "<group>"; };
 		9D1C764C22FC0A5E00120D6C /* TextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 		9D1C764D22FC0A5E00120D6C /* TextCellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCellData.swift; sourceTree = "<group>"; };
+		9D581E68230EB72700A9553D /* PaginationServiceiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PaginationServiceiOS.framework; path = Carthage/Build/iOS/PaginationServiceiOS.framework; sourceTree = "<group>"; };
+		9D581E6B230EB78600A9553D /* TrackPaginationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackPaginationService.swift; sourceTree = "<group>"; };
 		9DF07E2622F98C7700D9082D /* With.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = With.framework; path = Carthage/Build/iOS/With.framework; sourceTree = "<group>"; };
 		9DF07E2722F98C7700D9082D /* Spatial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spatial.framework; path = Carthage/Build/iOS/Spatial.framework; sourceTree = "<group>"; };
 		9DF580582305394A005F336B /* assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = assets.bundle; sourceTree = "<group>"; };
@@ -90,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D581E69230EB72700A9553D /* PaginationServiceiOS.framework in Frameworks */,
 				9DF07E2822F98C7700D9082D /* With.framework in Frameworks */,
 				9DF5806323054C8A005F336B /* FileSugar.framework in Frameworks */,
 				9DF5805F23054C8A005F336B /* JSONSugar.framework in Frameworks */,
@@ -104,6 +111,7 @@
 		9D05884D22F97CB000F0A2BE = {
 			isa = PBXGroup;
 			children = (
+				9D581E68230EB72700A9553D /* PaginationServiceiOS.framework */,
 				9DF5805E23054C8A005F336B /* FileSugar.framework */,
 				9DF5805C23054C8A005F336B /* JSONSugar.framework */,
 				9DF5805D23054C8A005F336B /* NetworkSugar.framework */,
@@ -185,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				9DF5806623054E2E005F336B /* ArtistAndSong.swift */,
+				9D581E6B230EB78600A9553D /* TrackPaginationService.swift */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -297,6 +306,7 @@
 				9D1C764F22FC0A5E00120D6C /* BaseCell.swift in Sources */,
 				9DF5806B230551A5005F336B /* Table+Getter.swift in Sources */,
 				9D1C764E22FC0A5E00120D6C /* CellDataKind.swift in Sources */,
+				9D581E6C230EB78600A9553D /* TrackPaginationService.swift in Sources */,
 				9DF5806F23059806005F336B /* Table+Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

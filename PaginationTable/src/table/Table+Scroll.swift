@@ -1,4 +1,5 @@
 import UIKit
+import PaginationServiceiOS
 
 extension Table {
    /**
@@ -19,14 +20,25 @@ extension Table {
    private func scrollingEnded() {
       guard isBottom && !isFetching else { Swift.print("not at the bottom or already fetching 🤷"); return } // must have reached the absolute bottom and must not be already fetching
       isFetching = true
-      Table.fetchData(range: paginationRange) { artistAndSong in
+      
+      TrackPaginationService.getItems(index: paginationRange.from, length: paginationRange.to - paginationRange.from) { success, tracks in
+//         Swift.print("success: \(success) artistName: \(String(describing: tracks.first?.artistName)) count: \(tracks.count)")
          DispatchQueue.main.async { [weak self] in
-            self?.rowData += artistAndSong
+            self?.rowData += tracks
             self?.paginationIndex += Table.paginationAmount // set the new pagination index
             self?.reloadData()
             self?.isFetching = false
             Swift.print("reload table complete (scroll)")
          }
       }
+//      Table.fetchData(range: paginationRange) { artistAndSong in
+//         DispatchQueue.main.async { [weak self] in
+//            self?.rowData += artistAndSong
+//            self?.paginationIndex += Table.paginationAmount // set the new pagination index
+//            self?.reloadData()
+//            self?.isFetching = false
+//            Swift.print("reload table complete (scroll)")
+//         }
+//      }
    }
 }

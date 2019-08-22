@@ -1,5 +1,6 @@
 github "eonist/FileSugar" "fe1e91c39ec1ae299d3253aa311f686dc8ef210c"
 github "eonist/JsonSugar" "3b7b51365d5f93c25a3e70a99c122fabf82ba4ed"
 github "eonist/NetworkSugar" "64cc226cabaaa64f41438af75e0be66a82e2f579"
-github "eonist/Spatial" "8e38eedf2f1a353701b92693ebc2724289d41520"
+github "eonist/PaginationService" "65ece296619c04564a0e9d9843e6101aefd14039"
+github "eonist/Spatial" "e4352e68a5d133e0857d611886ecde07ab38acc2"
 github "eonist/With" "216976bcbccf3d0f4a5221ef0009b16f4060944c"

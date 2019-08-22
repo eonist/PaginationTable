@@ -1,0 +1,3 @@
+github "eonist/FileSugar" "master"
+github "eonist/JsonSugar" "master"
+github "eonist/With" "master"
