@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D10A2492327C24300513EF4 /* NetworkParser+Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A2432327C24300513EF4 /* NetworkParser+Type.swift */; };
+		9D10A24A2327C24300513EF4 /* NetworkParser+Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A2432327C24300513EF4 /* NetworkParser+Type.swift */; };
+		9D10A24B2327C24300513EF4 /* NetworkParser+Default+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A2442327C24300513EF4 /* NetworkParser+Default+String.swift */; };
+		9D10A24C2327C24300513EF4 /* NetworkParser+Default+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A2442327C24300513EF4 /* NetworkParser+Default+String.swift */; };
+		9D10A24D2327C24300513EF4 /* NetworkParser+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A2452327C24300513EF4 /* NetworkParser+Data.swift */; };
+		9D10A24E2327C24300513EF4 /* NetworkParser+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A2452327C24300513EF4 /* NetworkParser+Data.swift */; };
+		9D10A24F2327C24300513EF4 /* NetworkParser+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A2462327C24300513EF4 /* NetworkParser+String.swift */; };
+		9D10A2502327C24300513EF4 /* NetworkParser+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A2462327C24300513EF4 /* NetworkParser+String.swift */; };
+		9D10A2512327C24300513EF4 /* NetworkParser+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A2472327C24300513EF4 /* NetworkParser+Error.swift */; };
+		9D10A2522327C24300513EF4 /* NetworkParser+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A2472327C24300513EF4 /* NetworkParser+Error.swift */; };
+		9D10A2532327C24300513EF4 /* NetworkAsserter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A2482327C24300513EF4 /* NetworkAsserter.swift */; };
+		9D10A2542327C24300513EF4 /* NetworkAsserter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A2482327C24300513EF4 /* NetworkAsserter.swift */; };
+		9D10A2582328095000513EF4 /* DEPRECATED.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A2572328095000513EF4 /* DEPRECATED.swift */; };
+		9D10A2592328095000513EF4 /* DEPRECATED.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A2572328095000513EF4 /* DEPRECATED.swift */; };
+		9D10A25D232929E100513EF4 /* NetworkParser+Default+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A25C232929E100513EF4 /* NetworkParser+Default+Data.swift */; };
+		9D10A25E232929E100513EF4 /* NetworkParser+Default+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A25C232929E100513EF4 /* NetworkParser+Default+Data.swift */; };
 		F1BED68821B4F73100A0D3D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BED68721B4F73100A0D3D4 /* AppDelegate.swift */; };
-		F1BED68A21B4F73100A0D3D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BED68921B4F73100A0D3D4 /* ViewController.swift */; };
-		F1BED68D21B4F73100A0D3D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BED68B21B4F73100A0D3D4 /* Main.storyboard */; };
 		F1BED68F21B4F73200A0D3D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BED68E21B4F73200A0D3D4 /* Assets.xcassets */; };
 		F1BED69221B4F73200A0D3D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BED69021B4F73200A0D3D4 /* LaunchScreen.storyboard */; };
 		F1BED6A221B4F75800A0D3D4 /* NetworkSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = F1BED6A021B4F75800A0D3D4 /* NetworkSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1BED6A521B4F75800A0D3D4 /* NetworkSugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BED69E21B4F75800A0D3D4 /* NetworkSugar.framework */; };
 		F1BED6A621B4F75800A0D3D4 /* NetworkSugar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1BED69E21B4F75800A0D3D4 /* NetworkSugar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F1BED6AE21B4F80F00A0D3D4 /* NetworkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BED6AC21B4F80F00A0D3D4 /* NetworkParser.swift */; };
-		F1BED6AF21B4F80F00A0D3D4 /* NetworkAsserter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BED6AD21B4F80F00A0D3D4 /* NetworkAsserter.swift */; };
 		F1C2171E228D64FD005B445B /* NetworkSugar_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C2171C228D64FD005B445B /* NetworkSugar_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1C21723228D6612005B445B /* NetworkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BED6AC21B4F80F00A0D3D4 /* NetworkParser.swift */; };
-		F1C21724228D6612005B445B /* NetworkAsserter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BED6AD21B4F80F00A0D3D4 /* NetworkAsserter.swift */; };
-		F1FA955922A251ED009088FB /* NetworkParser+Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA955822A251ED009088FB /* NetworkParser+Type.swift */; };
-		F1FA955B22A25204009088FB /* NetworkParser+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA955A22A25204009088FB /* NetworkParser+Default.swift */; };
-		F1FA955D22A2521E009088FB /* NetworkParser+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA955C22A2521E009088FB /* NetworkParser+String.swift */; };
-		F1FA955F22A25241009088FB /* NetworkParser+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA955E22A25241009088FB /* NetworkParser+Error.swift */; };
-		F1FA956022A252AA009088FB /* NetworkParser+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA955E22A25241009088FB /* NetworkParser+Error.swift */; };
-		F1FA956122A252AA009088FB /* NetworkParser+Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA955822A251ED009088FB /* NetworkParser+Type.swift */; };
-		F1FA956222A252AA009088FB /* NetworkParser+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA955A22A25204009088FB /* NetworkParser+Default.swift */; };
-		F1FA956322A252AA009088FB /* NetworkParser+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA955C22A2521E009088FB /* NetworkParser+String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,25 +57,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9D10A2432327C24300513EF4 /* NetworkParser+Type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkParser+Type.swift"; sourceTree = "<group>"; };
+		9D10A2442327C24300513EF4 /* NetworkParser+Default+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkParser+Default+String.swift"; sourceTree = "<group>"; };
+		9D10A2452327C24300513EF4 /* NetworkParser+Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkParser+Data.swift"; sourceTree = "<group>"; };
+		9D10A2462327C24300513EF4 /* NetworkParser+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkParser+String.swift"; sourceTree = "<group>"; };
+		9D10A2472327C24300513EF4 /* NetworkParser+Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkParser+Error.swift"; sourceTree = "<group>"; };
+		9D10A2482327C24300513EF4 /* NetworkAsserter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAsserter.swift; sourceTree = "<group>"; };
+		9D10A2572328095000513EF4 /* DEPRECATED.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEPRECATED.swift; sourceTree = "<group>"; };
+		9D10A25C232929E100513EF4 /* NetworkParser+Default+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkParser+Default+Data.swift"; sourceTree = "<group>"; };
 		F1BED68421B4F73100A0D3D4 /* NetworkSugarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkSugarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BED68721B4F73100A0D3D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1BED68921B4F73100A0D3D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F1BED68C21B4F73100A0D3D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1BED68E21B4F73200A0D3D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1BED69121B4F73200A0D3D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1BED69321B4F73200A0D3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1BED69E21B4F75800A0D3D4 /* NetworkSugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkSugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BED6A021B4F75800A0D3D4 /* NetworkSugar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkSugar.h; sourceTree = "<group>"; };
 		F1BED6A121B4F75800A0D3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1BED6AC21B4F80F00A0D3D4 /* NetworkParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkParser.swift; sourceTree = "<group>"; };
-		F1BED6AD21B4F80F00A0D3D4 /* NetworkAsserter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAsserter.swift; sourceTree = "<group>"; };
 		F1C2171A228D64FD005B445B /* NetworkSugar_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkSugar_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C2171C228D64FD005B445B /* NetworkSugar_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkSugar_macOS.h; sourceTree = "<group>"; };
 		F1C2171D228D64FD005B445B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1FA955822A251ED009088FB /* NetworkParser+Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkParser+Type.swift"; sourceTree = "<group>"; };
-		F1FA955A22A25204009088FB /* NetworkParser+Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkParser+Default.swift"; sourceTree = "<group>"; };
-		F1FA955C22A2521E009088FB /* NetworkParser+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkParser+String.swift"; sourceTree = "<group>"; };
-		F1FA955E22A25241009088FB /* NetworkParser+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkParser+Error.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +104,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D10A2422327C24300513EF4 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9D10A2552327C25B00513EF4 /* parser */,
+				9D10A2562327C26100513EF4 /* asserter */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		9D10A2552327C25B00513EF4 /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				9D10A2432327C24300513EF4 /* NetworkParser+Type.swift */,
+				9D10A2442327C24300513EF4 /* NetworkParser+Default+String.swift */,
+				9D10A25C232929E100513EF4 /* NetworkParser+Default+Data.swift */,
+				9D10A2452327C24300513EF4 /* NetworkParser+Data.swift */,
+				9D10A2462327C24300513EF4 /* NetworkParser+String.swift */,
+				9D10A2472327C24300513EF4 /* NetworkParser+Error.swift */,
+				9D10A25F23292A3700513EF4 /* deprecated */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		9D10A2562327C26100513EF4 /* asserter */ = {
+			isa = PBXGroup;
+			children = (
+				9D10A2482327C24300513EF4 /* NetworkAsserter.swift */,
+			);
+			path = asserter;
+			sourceTree = "<group>";
+		};
+		9D10A25F23292A3700513EF4 /* deprecated */ = {
+			isa = PBXGroup;
+			children = (
+				9D10A2572328095000513EF4 /* DEPRECATED.swift */,
+			);
+			path = deprecated;
+			sourceTree = "<group>";
+		};
 		F1BED67B21B4F73100A0D3D4 = {
 			isa = PBXGroup;
 			children = (
+				9D10A2422327C24300513EF4 /* src */,
 				F1BED68621B4F73100A0D3D4 /* NetworkSugarExample */,
 				F1BED69F21B4F75800A0D3D4 /* NetworkSugar */,
 				F1C2171B228D64FD005B445B /* NetworkSugar_macOS */,
@@ -126,8 +168,6 @@
 			isa = PBXGroup;
 			children = (
 				F1BED68721B4F73100A0D3D4 /* AppDelegate.swift */,
-				F1BED68921B4F73100A0D3D4 /* ViewController.swift */,
-				F1BED68B21B4F73100A0D3D4 /* Main.storyboard */,
 				F1BED68E21B4F73200A0D3D4 /* Assets.xcassets */,
 				F1BED69021B4F73200A0D3D4 /* LaunchScreen.storyboard */,
 				F1BED69321B4F73200A0D3D4 /* Info.plist */,
@@ -138,24 +178,10 @@
 		F1BED69F21B4F75800A0D3D4 /* NetworkSugar */ = {
 			isa = PBXGroup;
 			children = (
-				F1BED6AB21B4F80F00A0D3D4 /* src */,
 				F1BED6A021B4F75800A0D3D4 /* NetworkSugar.h */,
 				F1BED6A121B4F75800A0D3D4 /* Info.plist */,
 			);
 			path = NetworkSugar;
-			sourceTree = "<group>";
-		};
-		F1BED6AB21B4F80F00A0D3D4 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				F1BED6AC21B4F80F00A0D3D4 /* NetworkParser.swift */,
-				F1FA955E22A25241009088FB /* NetworkParser+Error.swift */,
-				F1FA955822A251ED009088FB /* NetworkParser+Type.swift */,
-				F1FA955A22A25204009088FB /* NetworkParser+Default.swift */,
-				F1FA955C22A2521E009088FB /* NetworkParser+String.swift */,
-				F1BED6AD21B4F80F00A0D3D4 /* NetworkAsserter.swift */,
-			);
-			path = src;
 			sourceTree = "<group>";
 		};
 		F1C2171B228D64FD005B445B /* NetworkSugar_macOS */ = {
@@ -259,6 +285,7 @@
 				TargetAttributes = {
 					F1BED68321B4F73100A0D3D4 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					F1BED69D21B4F75800A0D3D4 = {
 						CreatedOnToolsVersion = 10.1;
@@ -296,7 +323,6 @@
 			files = (
 				F1BED69221B4F73200A0D3D4 /* LaunchScreen.storyboard in Resources */,
 				F1BED68F21B4F73200A0D3D4 /* Assets.xcassets in Resources */,
-				F1BED68D21B4F73100A0D3D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +401,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1BED68A21B4F73100A0D3D4 /* ViewController.swift in Sources */,
 				F1BED68821B4F73100A0D3D4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,12 +409,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1FA955F22A25241009088FB /* NetworkParser+Error.swift in Sources */,
-				F1FA955922A251ED009088FB /* NetworkParser+Type.swift in Sources */,
-				F1FA955D22A2521E009088FB /* NetworkParser+String.swift in Sources */,
-				F1FA955B22A25204009088FB /* NetworkParser+Default.swift in Sources */,
-				F1BED6AE21B4F80F00A0D3D4 /* NetworkParser.swift in Sources */,
-				F1BED6AF21B4F80F00A0D3D4 /* NetworkAsserter.swift in Sources */,
+				9D10A2582328095000513EF4 /* DEPRECATED.swift in Sources */,
+				9D10A2492327C24300513EF4 /* NetworkParser+Type.swift in Sources */,
+				9D10A24D2327C24300513EF4 /* NetworkParser+Data.swift in Sources */,
+				9D10A24F2327C24300513EF4 /* NetworkParser+String.swift in Sources */,
+				9D10A24B2327C24300513EF4 /* NetworkParser+Default+String.swift in Sources */,
+				9D10A2512327C24300513EF4 /* NetworkParser+Error.swift in Sources */,
+				9D10A25D232929E100513EF4 /* NetworkParser+Default+Data.swift in Sources */,
+				9D10A2532327C24300513EF4 /* NetworkAsserter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,12 +424,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1FA956322A252AA009088FB /* NetworkParser+String.swift in Sources */,
-				F1FA956222A252AA009088FB /* NetworkParser+Default.swift in Sources */,
-				F1FA956022A252AA009088FB /* NetworkParser+Error.swift in Sources */,
-				F1C21723228D6612005B445B /* NetworkParser.swift in Sources */,
-				F1C21724228D6612005B445B /* NetworkAsserter.swift in Sources */,
-				F1FA956122A252AA009088FB /* NetworkParser+Type.swift in Sources */,
+				9D10A2592328095000513EF4 /* DEPRECATED.swift in Sources */,
+				9D10A24A2327C24300513EF4 /* NetworkParser+Type.swift in Sources */,
+				9D10A24E2327C24300513EF4 /* NetworkParser+Data.swift in Sources */,
+				9D10A2502327C24300513EF4 /* NetworkParser+String.swift in Sources */,
+				9D10A24C2327C24300513EF4 /* NetworkParser+Default+String.swift in Sources */,
+				9D10A2522327C24300513EF4 /* NetworkParser+Error.swift in Sources */,
+				9D10A25E232929E100513EF4 /* NetworkParser+Default+Data.swift in Sources */,
+				9D10A2542327C24300513EF4 /* NetworkAsserter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,14 +446,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F1BED68B21B4F73100A0D3D4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F1BED68C21B4F73100A0D3D4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F1BED69021B4F73200A0D3D4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -565,7 +586,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.NetworkSugarExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -583,7 +604,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.NetworkSugarExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

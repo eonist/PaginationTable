@@ -1,9 +1,9 @@
 {
-  "commitish" : "65ece296619c04564a0e9d9843e6101aefd14039",
+  "commitish" : "ad37fa51bf2cb43c7659dfdc71d5a05db5f7f6bd",
   "iOS" : [
     {
       "name" : "PaginationServiceiOS",
-      "hash" : "8125fee15d05c8f0cc8059c79b43752980461b9e37c0c84bdffbe73420109fac",
+      "hash" : "a3a2f9842a7ccec360cd7d5594572e589b0c3ba093511d5e09b55b01ea4a230d",
       "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
     }
   ]

@@ -1,0 +1,10 @@
+{
+  "commitish" : "2d241d87ab71f285740a2e763979308eea3c63c4",
+  "iOS" : [
+    {
+      "name" : "ReusableCell_iOS",
+      "hash" : "f9e799bea1b18e2f44148c429b71a3aa5fb00005a9312d5074fd4fb07c07f3a8",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    }
+  ]
+}

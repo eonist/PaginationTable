@@ -7,7 +7,7 @@ class Table: UITableView, UITableViewDelegate, UITableViewDataSource {
    var paginationIndex: Int = paginationAmount // The current amount of cells (this grows as you load more data
    var isFetching: Bool = false // A boolean that lets the code know if data is already loading or not, to avoid double fetching etc
    /**
-    * Init
+    * Initiate
     */
    init(rowData: [ArtistAndSong], frame: CGRect, style: UITableView.Style) {
       super.init(frame: frame, style: style)
@@ -28,3 +28,9 @@ class Table: UITableView, UITableViewDelegate, UITableViewDataSource {
       fatalError("init(coder:) has not been implemented")
    }
 }
+// continue here: 🏀
+   // Add CommonCell
+   // Support new result type 👈
+   // Refactor a bit
+   // Branch to a new project to test footer and header support
+

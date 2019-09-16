@@ -24,10 +24,10 @@ extension Table {
     * Returns playlist data for json string
     */
    private static func playlist(str: String) -> [ArtistAndSong] {
-      guard let jsonData = str.data(using: .utf8) else { fatalError("unable to convert string to data") }
+      guard let jsonData = str.data(using: .utf8) else { fatalError("Unable to convert string to data") }
       do {
-         guard let playlistCellData: [ArtistAndSong] = try decode(data: jsonData) else { print("unable to decode"); return [] }//From json to struct {
-         //         playlistCellData.forEach { Swift.print("$0.artistName:  \($0.artistName) $0.songTitle:  \($0.songTitle)") }
+         guard let playlistCellData: [ArtistAndSong] = try decode(data: jsonData) else { print("Unable to decode"); return [] }//From json to struct {
+         //playlistCellData.forEach { Swift.print("$0.artistName:  \($0.artistName) $0.songTitle:  \($0.songTitle)") }
          return playlistCellData // return result
       } catch let jsonErr {
          print("Error serializing json", jsonErr)

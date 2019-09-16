@@ -3,7 +3,7 @@
   "iOS" : [
     {
       "name" : "Spatial",
-      "hash" : "b4c63bdc68cfb090a73187e638ecaa7f02927b04f40f0b78ca0a55b6db19bb59",
+      "hash" : "bc0fa24b918678ae2088a0cff10a6c0bef67cc25d01372bce0d0a18e928cb5ac",
       "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
     }
   ]

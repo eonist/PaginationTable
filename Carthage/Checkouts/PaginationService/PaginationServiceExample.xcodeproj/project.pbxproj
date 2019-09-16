@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D10A27E232F826700513EF4 /* PaginationService+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A27D232F826700513EF4 /* PaginationService+Error.swift */; };
 		9D581E06230D79C400A9553D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D581E05230D79C400A9553D /* AppDelegate.swift */; };
 		9D581E0D230D79C500A9553D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D581E0C230D79C500A9553D /* Assets.xcassets */; };
 		9D581E10230D79C500A9553D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D581E0E230D79C500A9553D /* LaunchScreen.storyboard */; };
@@ -28,6 +29,8 @@
 		9D581E63230EA97800A9553D /* PaginationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D581E5C230EA8F300A9553D /* PaginationService.swift */; };
 		9D581E65230EAEE000A9553D /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D581E64230EAEE000A9553D /* Track.swift */; };
 		9D581E67230EB03F00A9553D /* CustomPaginationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D581E5A230EA8E400A9553D /* CustomPaginationService.swift */; };
+		9DECC402230FD0EB0073F3FB /* PaginationService+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DECC3FE230FD08B0073F3FB /* PaginationService+Data.swift */; };
+		9DECC403230FD0EB0073F3FB /* PaginationService+Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DECC400230FD09F0073F3FB /* PaginationService+Type.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9D10A27D232F826700513EF4 /* PaginationService+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaginationService+Error.swift"; sourceTree = "<group>"; };
 		9D581E02230D79C400A9553D /* PaginationServiceExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaginationServiceExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D581E05230D79C400A9553D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D581E0C230D79C500A9553D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 		9D581E5C230EA8F300A9553D /* PaginationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationService.swift; sourceTree = "<group>"; };
 		9D581E5E230EA90800A9553D /* TrackPaginationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackPaginationService.swift; sourceTree = "<group>"; };
 		9D581E64230EAEE000A9553D /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		9DECC3FE230FD08B0073F3FB /* PaginationService+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaginationService+Data.swift"; sourceTree = "<group>"; };
+		9DECC400230FD09F0073F3FB /* PaginationService+Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaginationService+Type.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +151,9 @@
 			children = (
 				9D581E5A230EA8E400A9553D /* CustomPaginationService.swift */,
 				9D581E5C230EA8F300A9553D /* PaginationService.swift */,
+				9DECC3FE230FD08B0073F3FB /* PaginationService+Data.swift */,
+				9DECC400230FD09F0073F3FB /* PaginationService+Type.swift */,
+				9D10A27D232F826700513EF4 /* PaginationService+Error.swift */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -334,6 +343,9 @@
 			files = (
 				9D581E67230EB03F00A9553D /* CustomPaginationService.swift in Sources */,
 				9D581E63230EA97800A9553D /* PaginationService.swift in Sources */,
+				9DECC402230FD0EB0073F3FB /* PaginationService+Data.swift in Sources */,
+				9DECC403230FD0EB0073F3FB /* PaginationService+Type.swift in Sources */,
+				9D10A27E232F826700513EF4 /* PaginationService+Error.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

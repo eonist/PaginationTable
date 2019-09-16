@@ -1,3 +1,11 @@
+![mit](https://img.shields.io/badge/License-MIT-brightgreen.svg)
+![platform](https://img.shields.io/badge/Platform-iOS-blue.svg)
+![platform](https://img.shields.io/badge/Platform-macOS-blue.svg)
+![Lang](https://img.shields.io/badge/Language-Swift%205.1-orange.svg)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![SwiftLint Sindre](https://img.shields.io/badge/SwiftLint-Sindre-hotpink.svg)](https://github.com/sindresorhus/swiftlint-sindre)
+[![codebeat badge](https://codebeat.co/badges/deb313b8-68c2-4e79-8bed-dfcdfb79416f)](https://codebeat.co/projects/github-com-eonist-paginationservice-master)
+
 # PaginationService
 
 <img width="240" alt="img" src="pagination.gif?raw=true">

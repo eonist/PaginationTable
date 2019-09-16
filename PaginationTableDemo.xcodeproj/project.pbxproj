@@ -13,6 +13,8 @@
 		9D05887022F98A8800F0A2BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D05886C22F98A8800F0A2BE /* ViewController.swift */; };
 		9D05887122F98A8800F0A2BE /* Table+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D05886E22F98A8800F0A2BE /* Table+Cell.swift */; };
 		9D05887222F98A8800F0A2BE /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D05886F22F98A8800F0A2BE /* Table.swift */; };
+		9D10A280232FBA6000513EF4 /* CommonCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D10A27F232FBA5F00513EF4 /* CommonCell.framework */; };
+		9D10A281232FBA6000513EF4 /* CommonCell.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D10A27F232FBA5F00513EF4 /* CommonCell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9D1C764E22FC0A5E00120D6C /* CellDataKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1C764722FC0A5E00120D6C /* CellDataKind.swift */; };
 		9D1C764F22FC0A5E00120D6C /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1C764822FC0A5E00120D6C /* BaseCell.swift */; };
 		9D1C765022FC0A5E00120D6C /* TextCell+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1C764A22FC0A5E00120D6C /* TextCell+Create.swift */; };
@@ -52,6 +54,7 @@
 				9DF07E2922F98C7700D9082D /* With.framework in Embed Frameworks */,
 				9DF5806423054C8A005F336B /* FileSugar.framework in Embed Frameworks */,
 				9DF5806023054C8A005F336B /* JSONSugar.framework in Embed Frameworks */,
+				9D10A281232FBA6000513EF4 /* CommonCell.framework in Embed Frameworks */,
 				9DF5806223054C8A005F336B /* NetworkSugar.framework in Embed Frameworks */,
 				9DF07E2B22F98C7700D9082D /* Spatial.framework in Embed Frameworks */,
 			);
@@ -69,6 +72,7 @@
 		9D05886C22F98A8800F0A2BE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9D05886E22F98A8800F0A2BE /* Table+Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Table+Cell.swift"; sourceTree = "<group>"; };
 		9D05886F22F98A8800F0A2BE /* Table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		9D10A27F232FBA5F00513EF4 /* CommonCell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonCell.framework; path = Carthage/Build/iOS/CommonCell.framework; sourceTree = "<group>"; };
 		9D1C764722FC0A5E00120D6C /* CellDataKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellDataKind.swift; sourceTree = "<group>"; };
 		9D1C764822FC0A5E00120D6C /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		9D1C764A22FC0A5E00120D6C /* TextCell+Create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextCell+Create.swift"; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 				9DF07E2822F98C7700D9082D /* With.framework in Frameworks */,
 				9DF5806323054C8A005F336B /* FileSugar.framework in Frameworks */,
 				9DF5805F23054C8A005F336B /* JSONSugar.framework in Frameworks */,
+				9D10A280232FBA6000513EF4 /* CommonCell.framework in Frameworks */,
 				9DF5806123054C8A005F336B /* NetworkSugar.framework in Frameworks */,
 				9DF07E2A22F98C7700D9082D /* Spatial.framework in Frameworks */,
 			);
@@ -111,6 +116,7 @@
 		9D05884D22F97CB000F0A2BE = {
 			isa = PBXGroup;
 			children = (
+				9D10A27F232FBA5F00513EF4 /* CommonCell.framework */,
 				9D581E68230EB72700A9553D /* PaginationServiceiOS.framework */,
 				9DF5805E23054C8A005F336B /* FileSugar.framework */,
 				9DF5805C23054C8A005F336B /* JSONSugar.framework */,
@@ -156,10 +162,10 @@
 			isa = PBXGroup;
 			children = (
 				9D1C764622FC0A5E00120D6C /* cell */,
+				9D05886F22F98A8800F0A2BE /* Table.swift */,
 				9D05886E22F98A8800F0A2BE /* Table+Cell.swift */,
 				9DF5806823055091005F336B /* Table+Scroll.swift */,
 				9DF5806A230551A5005F336B /* Table+Getter.swift */,
-				9D05886F22F98A8800F0A2BE /* Table.swift */,
 				9DF5806E23059806005F336B /* Table+Const.swift */,
 				9DF5805A230539A5005F336B /* Table+Data.swift */,
 				9DF5806C230554ED005F336B /* Table+Network.swift */,

@@ -24,12 +24,14 @@ extension Table {
 //         Swift.print("success: \(success) artistName: \(String(describing: tracks.first?.artistName)) count: \(tracks.count)")
          DispatchQueue.main.async { [weak self] in
             self?.rowData += tracks
-            self?.paginationIndex += Table.paginationAmount // set the new pagination index
+            self?.paginationIndex += Table.paginationAmount // Set the new pagination index
             self?.reloadData()
             self?.isFetching = false
             Swift.print("reload table complete (scroll)")
          }
       }
+   }
+}
 //      Table.fetchData(range: paginationRange) { artistAndSong in
 //         DispatchQueue.main.async { [weak self] in
 //            self?.rowData += artistAndSong
@@ -39,5 +41,3 @@ extension Table {
 //            Swift.print("reload table complete (scroll)")
 //         }
 //      }
-   }
-}
