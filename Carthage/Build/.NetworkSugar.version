@@ -3,7 +3,7 @@
   "iOS" : [
     {
       "name" : "NetworkSugar",
-      "hash" : "5c1539ab58fdc97a637b0571c1cbddc2ab6297223586a2ca6eb9e77da415ff98",
+      "hash" : "ff5504cda7f841c254067198954dc263f36c68311c9b14d875a23b0c75455b5d",
       "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
     }
   ]

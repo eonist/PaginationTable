@@ -10,7 +10,7 @@ extension TextCell {
    @objc open func createDescriptionLabel() -> UILabel {
       return with(.init()) {
          $0.text = "title"
-         $0.textColor = .white//.black
+         $0.textColor = .white // .black
          $0.backgroundColor = .clear
          $0.font = .boldSystemFont(ofSize: 16) // .boldSystemFont(ofSize: 20.0)
          $0.textAlignment = .left
@@ -31,7 +31,7 @@ extension TextCell {
          $0.isUserInteractionEnabled = false
          $0.textAlignment = .right
          $0.textColor = .gray
-         $0.tintColor = #colorLiteral(red: 0, green: 1, blue: 1, alpha: 1)//.cyan
+         $0.tintColor = #colorLiteral(red: 0, green: 1, blue: 1, alpha: 1) // .cyan
          $0.font = .systemFont(ofSize: 16)
          self.addSubview($0)
          // Constraints

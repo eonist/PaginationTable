@@ -28,9 +28,3 @@ class Table: UITableView, UITableViewDelegate, UITableViewDataSource {
       fatalError("init(coder:) has not been implemented")
    }
 }
-// continue here: 🏀
-   // Add CommonCell
-   // Support new result type 👈
-   // Refactor a bit
-   // Branch to a new project to test footer and header support
-

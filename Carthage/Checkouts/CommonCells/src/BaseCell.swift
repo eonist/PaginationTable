@@ -1,7 +1,7 @@
 import UIKit
 
 open class BaseCell: UITableViewCell {
-   var data: CellDataKind? // Stores cellData
+   public var data: CellDataKind? // Stores cellData
    /**
     * Init
     */

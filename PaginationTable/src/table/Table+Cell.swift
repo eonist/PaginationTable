@@ -1,4 +1,5 @@
 import UIKit
+import CommonCell
 /**
  * Cell
  */
@@ -16,7 +17,7 @@ extension Table {
       guard let cell: TextCell = tableView.dequeueReusableCell(withIdentifier: "\(TextCell.self)", for: indexPath as IndexPath) as? TextCell else { fatalError("err") }
       let data = rowData[indexPath.row]
       cell.data = TextCellData(description: data.artistName, content: data.songTitle)
-      cell.backgroundColor = .clear // debug
+      cell.backgroundColor = .clear // Debug
       return cell as TextCell
    }
    /**
@@ -35,6 +36,6 @@ extension Table {
     * When an item is tapped
     */
    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-      Swift.print("tapped")
+      Swift.print("Tapped")
    }
 }

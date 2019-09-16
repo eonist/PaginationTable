@@ -16,13 +16,15 @@ class ViewController: UIViewController {
       let table = Table(rowData: [], frame: .zero, style: .plain)
       view = table
       table.isFetching = true
-      Table.fetchData(range: table.paginationRange) { artistAndSong in
+      TrackPaginationService.getItems(index: table.paginationRange.from, length: table.paginationRange.to - table.paginationRange.from) { result in
          DispatchQueue.main.async { [weak table] in
-            table?.rowData += artistAndSong
+            guard let tracks: [Track] = try? result.get() else { return }
+            Swift.print("ArtistName: \(String(describing: tracks.first?.artistName)) count: \(tracks.count)")
+            table?.rowData += tracks
+            table?.paginationIndex += Table.paginationAmount // Set the new pagination index
             table?.reloadData()
-            table?.paginationIndex += Table.paginationAmount // set the new pagination index
             table?.isFetching = false
-            Swift.print("reload table complete (init)")
+            Swift.print("reload table complete (scroll)")
          }
       }
    }

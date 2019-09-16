@@ -143,7 +143,7 @@
 		9D10A232232797A200513EF4 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				9D10A233232797A200513EF4 /* CellDataKind.swift */,
+				9D10A282232FDE7B00513EF4 /* data */,
 				9D10A234232797A200513EF4 /* BaseCell.swift */,
 				9D10A235232797A200513EF4 /* text */,
 			);
@@ -153,12 +153,28 @@
 		9D10A235232797A200513EF4 /* text */ = {
 			isa = PBXGroup;
 			children = (
+				9D10A283232FDE8600513EF4 /* data */,
 				9D10A236232797A200513EF4 /* TextCell+Create.swift */,
 				9D10A237232797A200513EF4 /* TextCell+Constant.swift */,
 				9D10A238232797A200513EF4 /* TextCell.swift */,
-				9D10A239232797A200513EF4 /* TextCellData.swift */,
 			);
 			path = text;
+			sourceTree = "<group>";
+		};
+		9D10A282232FDE7B00513EF4 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				9D10A233232797A200513EF4 /* CellDataKind.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		9D10A283232FDE8600513EF4 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				9D10A239232797A200513EF4 /* TextCellData.swift */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

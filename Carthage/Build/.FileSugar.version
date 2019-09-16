@@ -3,7 +3,7 @@
   "iOS" : [
     {
       "name" : "FileSugar",
-      "hash" : "2c499490826e998789a24cfdaa9d051ac496405cf8d451ac81d04d19e9e7ca41",
+      "hash" : "d8e124e1826d5d98b0cad32c57b39cdf90528b57dc50bfe5339438e930909795",
       "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
     }
   ]

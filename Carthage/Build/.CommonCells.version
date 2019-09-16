@@ -1,9 +1,9 @@
 {
-  "commitish" : "7e68fa38c61b6fe1060d63cf947fedc87d1b824c",
+  "commitish" : "cd60553e8d249fcb9b52269c2edee3cb682b2ac8",
   "iOS" : [
     {
       "name" : "CommonCell",
-      "hash" : "6a2db7e192736ee40976265ea7f161f164aa3907f0741b53541e921930e54180",
+      "hash" : "2a6d7ab813f16292717dde6cd324c5e6bafc95624800090812d84aff3c14f1a4",
       "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
     }
   ]
