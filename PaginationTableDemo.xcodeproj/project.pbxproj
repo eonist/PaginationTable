@@ -33,13 +33,29 @@
 		9D10A32E233345C200513EF4 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A32D233345C200513EF4 /* Header.swift */; };
 		9D10A332233346DC00513EF4 /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A331233346DC00513EF4 /* Footer.swift */; };
 		9D10A3342333592C00513EF4 /* Table+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A3332333592C00513EF4 /* Table+Create.swift */; };
+		9D10D79223337CFC0059C578 /* Table+Getter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10D79123337CFC0059C578 /* Table+Getter.swift */; };
+		9D10D7A1233383790059C578 /* PaginationTableiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D10D79F233383790059C578 /* PaginationTableiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D10D7A4233383790059C578 /* PaginationTableiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D10D79D233383790059C578 /* PaginationTableiOS.framework */; };
+		9D10D7A5233383790059C578 /* PaginationTableiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D10D79D233383790059C578 /* PaginationTableiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D10D7A9233383810059C578 /* PaginateTableKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10D78F233378BE0059C578 /* PaginateTableKind.swift */; };
+		9D10D7AA233383810059C578 /* PaginateTableKind+Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10D79623337F180059C578 /* PaginateTableKind+Type.swift */; };
+		9D10D7AB233383810059C578 /* PaginateTableKind+Getter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10D79423337F090059C578 /* PaginateTableKind+Getter.swift */; };
 		9D581E6C230EB78600A9553D /* TrackPaginationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D581E6B230EB78600A9553D /* TrackPaginationService.swift */; };
 		9DF580592305394A005F336B /* assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DF580582305394A005F336B /* assets.bundle */; };
 		9DF5806723054E2E005F336B /* ArtistAndSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5806623054E2E005F336B /* ArtistAndSong.swift */; };
 		9DF5806923055091005F336B /* Table+Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5806823055091005F336B /* Table+Scroll.swift */; };
-		9DF5806B230551A5005F336B /* Table+Getter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5806A230551A5005F336B /* Table+Getter.swift */; };
 		9DF5806F23059806005F336B /* Table+Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF5806E23059806005F336B /* Table+Const.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D10D7A2233383790059C578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D05884E22F97CB000F0A2BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D10D79C233383790059C578;
+			remoteInfo = PaginationTableiOS;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		9D10A299232FEA8800513EF4 /* Embed Frameworks */ = {
@@ -54,6 +70,7 @@
 				9D10A2B1232FEA9700513EF4 /* Spatial.framework in Embed Frameworks */,
 				9D10A2A7232FEA9700513EF4 /* PaginationServiceiOS.framework in Embed Frameworks */,
 				9D10A2A5232FEA9700513EF4 /* NetworkSugar.framework in Embed Frameworks */,
+				9D10D7A5233383790059C578 /* PaginationTableiOS.framework in Embed Frameworks */,
 				9D10A2A3232FEA9700513EF4 /* With.framework in Embed Frameworks */,
 				9D10A2A9232FEA9700513EF4 /* JSONSugar.framework in Embed Frameworks */,
 			);
@@ -83,11 +100,17 @@
 		9D10A32D233345C200513EF4 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		9D10A331233346DC00513EF4 /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
 		9D10A3332333592C00513EF4 /* Table+Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Table+Create.swift"; sourceTree = "<group>"; };
+		9D10D78F233378BE0059C578 /* PaginateTableKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginateTableKind.swift; sourceTree = "<group>"; };
+		9D10D79123337CFC0059C578 /* Table+Getter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Table+Getter.swift"; sourceTree = "<group>"; };
+		9D10D79423337F090059C578 /* PaginateTableKind+Getter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaginateTableKind+Getter.swift"; sourceTree = "<group>"; };
+		9D10D79623337F180059C578 /* PaginateTableKind+Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaginateTableKind+Type.swift"; sourceTree = "<group>"; };
+		9D10D79D233383790059C578 /* PaginationTableiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PaginationTableiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D10D79F233383790059C578 /* PaginationTableiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaginationTableiOS.h; sourceTree = "<group>"; };
+		9D10D7A0233383790059C578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D581E6B230EB78600A9553D /* TrackPaginationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackPaginationService.swift; sourceTree = "<group>"; };
 		9DF580582305394A005F336B /* assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = assets.bundle; sourceTree = "<group>"; };
 		9DF5806623054E2E005F336B /* ArtistAndSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistAndSong.swift; sourceTree = "<group>"; };
 		9DF5806823055091005F336B /* Table+Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Table+Scroll.swift"; sourceTree = "<group>"; };
-		9DF5806A230551A5005F336B /* Table+Getter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Table+Getter.swift"; sourceTree = "<group>"; };
 		9DF5806E23059806005F336B /* Table+Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Table+Const.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,8 +125,16 @@
 				9D10A2B0232FEA9700513EF4 /* Spatial.framework in Frameworks */,
 				9D10A2A6232FEA9700513EF4 /* PaginationServiceiOS.framework in Frameworks */,
 				9D10A2A4232FEA9700513EF4 /* NetworkSugar.framework in Frameworks */,
+				9D10D7A4233383790059C578 /* PaginationTableiOS.framework in Frameworks */,
 				9D10A2A2232FEA9700513EF4 /* With.framework in Frameworks */,
 				9D10A2A8232FEA9700513EF4 /* JSONSugar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D10D79A233383790059C578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +153,7 @@
 				9D10A2A1232FEA9700513EF4 /* Spatial.framework */,
 				9D10A29A232FEA9500513EF4 /* With.framework */,
 				9D05885822F97CB000F0A2BE /* PaginationTable */,
+				9D10D79E233383790059C578 /* PaginationTableiOS */,
 				9D05885722F97CB000F0A2BE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				9D05885622F97CB000F0A2BE /* PaginationTableDemo.app */,
+				9D10D79D233383790059C578 /* PaginationTableiOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				9D05886C22F98A8800F0A2BE /* ViewController.swift */,
+				9D10D79323337EF80059C578 /* protocol */,
 				9D05886D22F98A8800F0A2BE /* table */,
 			);
 			path = src;
@@ -163,8 +197,8 @@
 				9D05886F22F98A8800F0A2BE /* Table.swift */,
 				9D10A3332333592C00513EF4 /* Table+Create.swift */,
 				9D10A3292333430700513EF4 /* Table+Section.swift */,
+				9D10D79123337CFC0059C578 /* Table+Getter.swift */,
 				9D05886E22F98A8800F0A2BE /* Table+Cell.swift */,
-				9DF5806A230551A5005F336B /* Table+Getter.swift */,
 				9DF5806E23059806005F336B /* Table+Const.swift */,
 				9DF5806823055091005F336B /* Table+Scroll.swift */,
 				9D10A32C2333450400513EF4 /* header */,
@@ -189,6 +223,25 @@
 			path = header;
 			sourceTree = "<group>";
 		};
+		9D10D79323337EF80059C578 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				9D10D78F233378BE0059C578 /* PaginateTableKind.swift */,
+				9D10D79623337F180059C578 /* PaginateTableKind+Type.swift */,
+				9D10D79423337F090059C578 /* PaginateTableKind+Getter.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		9D10D79E233383790059C578 /* PaginationTableiOS */ = {
+			isa = PBXGroup;
+			children = (
+				9D10D79F233383790059C578 /* PaginationTableiOS.h */,
+				9D10D7A0233383790059C578 /* Info.plist */,
+			);
+			path = PaginationTableiOS;
+			sourceTree = "<group>";
+		};
 		9DF5806523054E01005F336B /* data */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +252,17 @@
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9D10D798233383790059C578 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D10D7A1233383790059C578 /* PaginationTableiOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		9D05885522F97CB000F0A2BE /* PaginationTableDemo */ = {
@@ -214,11 +278,30 @@
 			buildRules = (
 			);
 			dependencies = (
+				9D10D7A3233383790059C578 /* PBXTargetDependency */,
 			);
 			name = PaginationTableDemo;
 			productName = SimpleTable;
 			productReference = 9D05885622F97CB000F0A2BE /* PaginationTableDemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		9D10D79C233383790059C578 /* PaginationTableiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D10D7A6233383790059C578 /* Build configuration list for PBXNativeTarget "PaginationTableiOS" */;
+			buildPhases = (
+				9D10D798233383790059C578 /* Headers */,
+				9D10D799233383790059C578 /* Sources */,
+				9D10D79A233383790059C578 /* Frameworks */,
+				9D10D79B233383790059C578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaginationTableiOS;
+			productName = PaginationTableiOS;
+			productReference = 9D10D79D233383790059C578 /* PaginationTableiOS.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -231,6 +314,9 @@
 				ORGANIZATIONNAME = futurelab;
 				TargetAttributes = {
 					9D05885522F97CB000F0A2BE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					9D10D79C233383790059C578 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -249,6 +335,7 @@
 			projectRoot = "";
 			targets = (
 				9D05885522F97CB000F0A2BE /* PaginationTableDemo */,
+				9D10D79C233383790059C578 /* PaginationTableiOS */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +348,13 @@
 				9DF580592305394A005F336B /* assets.bundle in Resources */,
 				9D05886422F97CB100F0A2BE /* LaunchScreen.storyboard in Resources */,
 				9D05886122F97CB100F0A2BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D10D79B233383790059C578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D10A3342333592C00513EF4 /* Table+Create.swift in Sources */,
+				9D10D79223337CFC0059C578 /* Table+Getter.swift in Sources */,
 				9D05887022F98A8800F0A2BE /* ViewController.swift in Sources */,
 				9D05887222F98A8800F0A2BE /* Table.swift in Sources */,
 				9DF5806923055091005F336B /* Table+Scroll.swift in Sources */,
@@ -301,13 +396,30 @@
 				9D10A332233346DC00513EF4 /* Footer.swift in Sources */,
 				9D05885A22F97CB000F0A2BE /* AppDelegate.swift in Sources */,
 				9D10A32E233345C200513EF4 /* Header.swift in Sources */,
-				9DF5806B230551A5005F336B /* Table+Getter.swift in Sources */,
 				9D581E6C230EB78600A9553D /* TrackPaginationService.swift in Sources */,
 				9DF5806F23059806005F336B /* Table+Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9D10D799233383790059C578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D10D7AB233383810059C578 /* PaginateTableKind+Getter.swift in Sources */,
+				9D10D7A9233383810059C578 /* PaginateTableKind.swift in Sources */,
+				9D10D7AA233383810059C578 /* PaginateTableKind+Type.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D10D7A3233383790059C578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D10D79C233383790059C578 /* PaginationTableiOS */;
+			targetProxy = 9D10D7A2233383790059C578 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9D05886222F97CB100F0A2BE /* LaunchScreen.storyboard */ = {
@@ -440,6 +552,7 @@
 		9D05886922F97CB100F0A2BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TXKCF76Y2G;
@@ -463,6 +576,7 @@
 		9D05886A22F97CB100F0A2BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TXKCF76Y2G;
@@ -483,6 +597,62 @@
 			};
 			name = Release;
 		};
+		9D10D7A7233383790059C578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TXKCF76Y2G;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PaginationTableiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.PaginationTableiOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D10D7A8233383790059C578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TXKCF76Y2G;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PaginationTableiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.PaginationTableiOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -500,6 +670,15 @@
 			buildConfigurations = (
 				9D05886922F97CB100F0A2BE /* Debug */,
 				9D05886A22F97CB100F0A2BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D10D7A6233383790059C578 /* Build configuration list for PBXNativeTarget "PaginationTableiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D10D7A7233383790059C578 /* Debug */,
+				9D10D7A8233383790059C578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

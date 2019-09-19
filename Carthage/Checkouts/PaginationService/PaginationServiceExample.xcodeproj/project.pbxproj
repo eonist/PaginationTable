@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9D10A27E232F826700513EF4 /* PaginationService+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A27D232F826700513EF4 /* PaginationService+Error.swift */; };
+		9D10A2F3233217D700513EF4 /* PaginationServiceUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A2F2233217D700513EF4 /* PaginationServiceUnitTest.swift */; };
+		9D10A2FA23321B0D00513EF4 /* TrackPaginationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D581E5E230EA90800A9553D /* TrackPaginationService.swift */; };
+		9D10A2FB23321B9E00513EF4 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D581E64230EAEE000A9553D /* Track.swift */; };
 		9D581E06230D79C400A9553D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D581E05230D79C400A9553D /* AppDelegate.swift */; };
 		9D581E0D230D79C500A9553D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D581E0C230D79C500A9553D /* Assets.xcassets */; };
 		9D581E10230D79C500A9553D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D581E0E230D79C500A9553D /* LaunchScreen.storyboard */; };
@@ -34,6 +37,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9D10A2F5233217D700513EF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D581DFA230D79C400A9553D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D581E01230D79C400A9553D;
+			remoteInfo = PaginationServiceExample;
+		};
 		9D581E38230D7B0600A9553D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9D581DFA230D79C400A9553D /* Project object */;
@@ -62,6 +72,9 @@
 
 /* Begin PBXFileReference section */
 		9D10A27D232F826700513EF4 /* PaginationService+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaginationService+Error.swift"; sourceTree = "<group>"; };
+		9D10A2F0233217D700513EF4 /* PaginationServiceUnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaginationServiceUnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D10A2F2233217D700513EF4 /* PaginationServiceUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationServiceUnitTest.swift; sourceTree = "<group>"; };
+		9D10A2F4233217D700513EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D581E02230D79C400A9553D /* PaginationServiceExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaginationServiceExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D581E05230D79C400A9553D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D581E0C230D79C500A9553D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,6 +99,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9D10A2ED233217D700513EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9D581DFF230D79C400A9553D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -110,6 +130,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D10A2F1233217D700513EF4 /* PaginationServiceUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				9D10A2F2233217D700513EF4 /* PaginationServiceUnitTest.swift */,
+				9D10A2F4233217D700513EF4 /* Info.plist */,
+			);
+			path = PaginationServiceUnitTest;
+			sourceTree = "<group>";
+		};
 		9D581DF9230D79C400A9553D = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +148,7 @@
 				9D581E29230D7A5B00A9553D /* src */,
 				9D581E04230D79C400A9553D /* PaginationServiceExample */,
 				9D581E34230D7B0600A9553D /* PaginationServiceiOS */,
+				9D10A2F1233217D700513EF4 /* PaginationServiceUnitTest */,
 				9D581E03230D79C400A9553D /* Products */,
 				9D581E45230D93F100A9553D /* Frameworks */,
 			);
@@ -129,6 +159,7 @@
 			children = (
 				9D581E02230D79C400A9553D /* PaginationServiceExample.app */,
 				9D581E33230D7B0600A9553D /* PaginationServiceiOS.framework */,
+				9D10A2F0233217D700513EF4 /* PaginationServiceUnitTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,6 +223,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		9D10A2EF233217D700513EF4 /* PaginationServiceUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D10A2F9233217D700513EF4 /* Build configuration list for PBXNativeTarget "PaginationServiceUnitTest" */;
+			buildPhases = (
+				9D10A2EC233217D700513EF4 /* Sources */,
+				9D10A2ED233217D700513EF4 /* Frameworks */,
+				9D10A2EE233217D700513EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D10A2F6233217D700513EF4 /* PBXTargetDependency */,
+			);
+			name = PaginationServiceUnitTest;
+			productName = PaginationServiceUnitTest;
+			productReference = 9D10A2F0233217D700513EF4 /* PaginationServiceUnitTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		9D581E01230D79C400A9553D /* PaginationServiceExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D581E14230D79C500A9553D /* Build configuration list for PBXNativeTarget "PaginationServiceExample" */;
@@ -241,6 +290,10 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = futurelab;
 				TargetAttributes = {
+					9D10A2EF233217D700513EF4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9D581E01230D79C400A9553D;
+					};
 					9D581E01230D79C400A9553D = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -264,11 +317,19 @@
 			targets = (
 				9D581E01230D79C400A9553D /* PaginationServiceExample */,
 				9D581E32230D7B0600A9553D /* PaginationServiceiOS */,
+				9D10A2EF233217D700513EF4 /* PaginationServiceUnitTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9D10A2EE233217D700513EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9D581E00230D79C400A9553D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,6 +388,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9D10A2EC233217D700513EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D10A2F3233217D700513EF4 /* PaginationServiceUnitTest.swift in Sources */,
+				9D10A2FA23321B0D00513EF4 /* TrackPaginationService.swift in Sources */,
+				9D10A2FB23321B9E00513EF4 /* Track.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9D581DFE230D79C400A9553D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -352,6 +423,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9D10A2F6233217D700513EF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D581E01230D79C400A9553D /* PaginationServiceExample */;
+			targetProxy = 9D10A2F5233217D700513EF4 /* PBXContainerItemProxy */;
+		};
 		9D581E39230D7B0600A9553D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9D581E32230D7B0600A9553D /* PaginationServiceiOS */;
@@ -371,6 +447,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9D10A2F7233217D700513EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TXKCF76Y2G;
+				INFOPLIST_FILE = PaginationServiceUnitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.PaginationServiceUnitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaginationServiceExample.app/PaginationServiceExample";
+			};
+			name = Debug;
+		};
+		9D10A2F8233217D700513EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TXKCF76Y2G;
+				INFOPLIST_FILE = PaginationServiceUnitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.PaginationServiceUnitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaginationServiceExample.app/PaginationServiceExample";
+			};
+			name = Release;
+		};
 		9D581E12230D79C500A9553D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -600,6 +716,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9D10A2F9233217D700513EF4 /* Build configuration list for PBXNativeTarget "PaginationServiceUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D10A2F7233217D700513EF4 /* Debug */,
+				9D10A2F8233217D700513EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9D581DFD230D79C400A9553D /* Build configuration list for PBXProject "PaginationServiceExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

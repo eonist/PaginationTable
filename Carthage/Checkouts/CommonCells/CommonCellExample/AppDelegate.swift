@@ -26,7 +26,7 @@ class MainVC: UIViewController {
 class MainView: UIView {
    override init(frame: CGRect) {
       super.init(frame: frame)
-      let data = TextCellData.init(description: "", content: "")
+      let data: TextCellData = .init(description: "", content: "")
    }
    required init?(coder aDecoder: NSCoder) {
       fatalError("init(coder:) has not been implemented")

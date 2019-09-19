@@ -3,7 +3,7 @@
   "iOS" : [
     {
       "name" : "CommonCell",
-      "hash" : "2a6d7ab813f16292717dde6cd324c5e6bafc95624800090812d84aff3c14f1a4",
+      "hash" : "0e4a511407a37917c26698ed294b3c4b6d5ec34c82cdb9803b02001df289b2ae",
       "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
     }
   ]

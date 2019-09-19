@@ -23,6 +23,7 @@
 		9D10A2592328095000513EF4 /* DEPRECATED.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A2572328095000513EF4 /* DEPRECATED.swift */; };
 		9D10A25D232929E100513EF4 /* NetworkParser+Default+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A25C232929E100513EF4 /* NetworkParser+Default+Data.swift */; };
 		9D10A25E232929E100513EF4 /* NetworkParser+Default+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A25C232929E100513EF4 /* NetworkParser+Default+Data.swift */; };
+		9D10A2E52332101D00513EF4 /* NetworkSugarUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10A2E42332101D00513EF4 /* NetworkSugarUnitTest.swift */; };
 		F1BED68821B4F73100A0D3D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BED68721B4F73100A0D3D4 /* AppDelegate.swift */; };
 		F1BED68F21B4F73200A0D3D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BED68E21B4F73200A0D3D4 /* Assets.xcassets */; };
 		F1BED69221B4F73200A0D3D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BED69021B4F73200A0D3D4 /* LaunchScreen.storyboard */; };
@@ -33,6 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9D10A2E72332101D00513EF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BED67C21B4F73100A0D3D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BED68321B4F73100A0D3D4;
+			remoteInfo = NetworkSugarExample;
+		};
 		F1BED6A321B4F75800A0D3D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F1BED67C21B4F73100A0D3D4 /* Project object */;
@@ -65,6 +73,9 @@
 		9D10A2482327C24300513EF4 /* NetworkAsserter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAsserter.swift; sourceTree = "<group>"; };
 		9D10A2572328095000513EF4 /* DEPRECATED.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEPRECATED.swift; sourceTree = "<group>"; };
 		9D10A25C232929E100513EF4 /* NetworkParser+Default+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkParser+Default+Data.swift"; sourceTree = "<group>"; };
+		9D10A2E22332101D00513EF4 /* NetworkSugarUnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkSugarUnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D10A2E42332101D00513EF4 /* NetworkSugarUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSugarUnitTest.swift; sourceTree = "<group>"; };
+		9D10A2E62332101D00513EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1BED68421B4F73100A0D3D4 /* NetworkSugarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkSugarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BED68721B4F73100A0D3D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1BED68E21B4F73200A0D3D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +90,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9D10A2DF2332101D00513EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F1BED68121B4F73100A0D3D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -143,6 +161,15 @@
 			path = deprecated;
 			sourceTree = "<group>";
 		};
+		9D10A2E32332101D00513EF4 /* NetworkSugarUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				9D10A2E42332101D00513EF4 /* NetworkSugarUnitTest.swift */,
+				9D10A2E62332101D00513EF4 /* Info.plist */,
+			);
+			path = NetworkSugarUnitTest;
+			sourceTree = "<group>";
+		};
 		F1BED67B21B4F73100A0D3D4 = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +177,7 @@
 				F1BED68621B4F73100A0D3D4 /* NetworkSugarExample */,
 				F1BED69F21B4F75800A0D3D4 /* NetworkSugar */,
 				F1C2171B228D64FD005B445B /* NetworkSugar_macOS */,
+				9D10A2E32332101D00513EF4 /* NetworkSugarUnitTest */,
 				F1BED68521B4F73100A0D3D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -160,6 +188,7 @@
 				F1BED68421B4F73100A0D3D4 /* NetworkSugarExample.app */,
 				F1BED69E21B4F75800A0D3D4 /* NetworkSugar.framework */,
 				F1C2171A228D64FD005B445B /* NetworkSugar_macOS.framework */,
+				9D10A2E22332101D00513EF4 /* NetworkSugarUnitTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -215,6 +244,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		9D10A2E12332101D00513EF4 /* NetworkSugarUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D10A2EB2332101D00513EF4 /* Build configuration list for PBXNativeTarget "NetworkSugarUnitTest" */;
+			buildPhases = (
+				9D10A2DE2332101D00513EF4 /* Sources */,
+				9D10A2DF2332101D00513EF4 /* Frameworks */,
+				9D10A2E02332101D00513EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D10A2E82332101D00513EF4 /* PBXTargetDependency */,
+			);
+			name = NetworkSugarUnitTest;
+			productName = NetworkSugarUnitTest;
+			productReference = 9D10A2E22332101D00513EF4 /* NetworkSugarUnitTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F1BED68321B4F73100A0D3D4 /* NetworkSugarExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1BED69621B4F73200A0D3D4 /* Build configuration list for PBXNativeTarget "NetworkSugarExample" */;
@@ -279,10 +326,14 @@
 		F1BED67C21B4F73100A0D3D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = FutureLab;
 				TargetAttributes = {
+					9D10A2E12332101D00513EF4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F1BED68321B4F73100A0D3D4;
+					};
 					F1BED68321B4F73100A0D3D4 = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1020;
@@ -312,11 +363,19 @@
 				F1BED68321B4F73100A0D3D4 /* NetworkSugarExample */,
 				F1BED69D21B4F75800A0D3D4 /* NetworkSugar */,
 				F1C21719228D64FD005B445B /* NetworkSugar_macOS */,
+				9D10A2E12332101D00513EF4 /* NetworkSugarUnitTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9D10A2E02332101D00513EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F1BED68221B4F73100A0D3D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -397,6 +456,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9D10A2DE2332101D00513EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D10A2E52332101D00513EF4 /* NetworkSugarUnitTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F1BED68021B4F73100A0D3D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -438,6 +505,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9D10A2E82332101D00513EF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1BED68321B4F73100A0D3D4 /* NetworkSugarExample */;
+			targetProxy = 9D10A2E72332101D00513EF4 /* PBXContainerItemProxy */;
+		};
 		F1BED6A421B4F75800A0D3D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F1BED69D21B4F75800A0D3D4 /* NetworkSugar */;
@@ -457,6 +529,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9D10A2E92332101D00513EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TXKCF76Y2G;
+				INFOPLIST_FILE = NetworkSugarUnitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.NetworkSugarUnitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkSugarExample.app/NetworkSugarExample";
+			};
+			name = Debug;
+		};
+		9D10A2EA2332101D00513EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TXKCF76Y2G;
+				INFOPLIST_FILE = NetworkSugarUnitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.NetworkSugarUnitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkSugarExample.app/NetworkSugarExample";
+			};
+			name = Release;
+		};
 		F1BED69421B4F73200A0D3D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -726,6 +840,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9D10A2EB2332101D00513EF4 /* Build configuration list for PBXNativeTarget "NetworkSugarUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D10A2E92332101D00513EF4 /* Debug */,
+				9D10A2EA2332101D00513EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F1BED67F21B4F73100A0D3D4 /* Build configuration list for PBXProject "NetworkSugarExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

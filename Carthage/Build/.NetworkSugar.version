@@ -1,9 +1,9 @@
 {
-  "commitish" : "03db95ef4d45dfcb3e7d1909bdd03eb037f89448",
+  "commitish" : "3dcbb980e3c7c372e57fddac76aeef962dd29ec8",
   "iOS" : [
     {
       "name" : "NetworkSugar",
-      "hash" : "ff5504cda7f841c254067198954dc263f36c68311c9b14d875a23b0c75455b5d",
+      "hash" : "b1443969306a6caffd5216204664beb614d31384554e63414e67a6512aab3554",
       "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
     }
   ]
