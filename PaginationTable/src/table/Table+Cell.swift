@@ -29,10 +29,10 @@ extension Table {
    /**
     * Register cells
     */
-   func registerCells() {
+   func registerUI() {
       self.register(TextCell.self)
-//      self.register(TableHeader.self, forHeaderFooterViewReuseIdentifier: TableHeader.reuseIdentifier)
-//      self.register(Footer.self, forHeaderFooterViewReuseIdentifier: Footer.reuseIdentifier)
+      self.register(Header.self, forHeaderFooterViewReuseIdentifier: Header.reuseIdentifier)
+      self.register(Footer.self, forHeaderFooterViewReuseIdentifier: Footer.reuseIdentifier)
    }
    /**
     * When an item is tapped

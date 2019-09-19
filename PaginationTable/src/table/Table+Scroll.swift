@@ -18,8 +18,14 @@ extension Table {
     * - Abstract: Universal method for scrolling motion complete
     */
    private func scrollingEnded() {
-      guard isBottom && !isFetching else { Swift.print("Not at the bottom or already fetching 🤷"); return } // must have reached the absolute bottom and must not be already fetching
+//      Swift.print("TrackPaginationService._items?.count:  \(TrackPaginationService._items?.count) ✅")
+//      Swift.print("self?.rowData.count:  \(self.rowData.count)")
+
+      guard isBottom && !isFetching else { Swift.print("Already fetching"); return } // must have reached the absolute bottom and must not be already fetching
       isFetching = true
+      // Continue here: 🏀
+         // something wrong with paginationRange
+      Swift.print("paginationRange:  \(paginationRange)")
       TrackPaginationService.getItems(index: paginationRange.from, length: paginationRange.to - paginationRange.from) { result in
          DispatchQueue.main.async { [weak self] in
             guard let tracks: [Track] = try? result.get() else { return }
@@ -28,7 +34,13 @@ extension Table {
             self?.paginationIndex += Table.paginationAmount // Set the new pagination index
             self?.reloadData()
             self?.isFetching = false
-            Swift.print("reload table complete (scroll)")
+            if self?.rowData.count == TrackPaginationService._items?.count {
+               Swift.print("✅")
+               self?.tableFooterView?.isHidden = false
+               self?.tableFooterView?.frame = .init(x: 0, y: 0, width: UIScreen.main.bounds.width, height: Footer.height)
+               self?.reloadData()
+            }
+            Swift.print("reload table complete (scrollEnded)")
          }
       }
    }
