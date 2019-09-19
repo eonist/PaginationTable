@@ -30,7 +30,9 @@ extension Table {
     * Register cells
     */
    func registerCells() {
-      self.register(TextCell.self, forCellReuseIdentifier: "\(TextCell.self)")
+      self.register(TextCell.self)
+//      self.register(TableHeader.self, forHeaderFooterViewReuseIdentifier: TableHeader.reuseIdentifier)
+//      self.register(Footer.self, forHeaderFooterViewReuseIdentifier: Footer.reuseIdentifier)
    }
    /**
     * When an item is tapped

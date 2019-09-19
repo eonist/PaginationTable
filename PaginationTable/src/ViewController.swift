@@ -24,7 +24,7 @@ class ViewController: UIViewController {
             table?.paginationIndex += Table.paginationAmount // Set the new pagination index
             table?.reloadData()
             table?.isFetching = false
-            Swift.print("reload table complete (scroll)")
+            Swift.print("Reload table complete (scroll)")
          }
       }
    }
