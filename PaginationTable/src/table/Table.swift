@@ -6,7 +6,7 @@ import PaginationTableiOS
 class Table: UITableView, UITableViewDelegate, UITableViewDataSource, PaginateTableKind {
    var rowData: [ArtistAndSong] = [] // Used in combination with rowData
    var paginationIndex: Int = 0 // The current amount of cells (this grows as you load more data
-   var isFetching: Bool = false // A boolean that lets the code know if data is already loading or not, to avoid double fetching etc
+   var isFetching: Bool = false // A boolean that let's the code know if data is already loading or not, to avoid double fetching etc
    /**
     * Initiate
     */
