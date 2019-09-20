@@ -1,11 +1,3 @@
-//
-//  PaginationTableiOS.h
-//  PaginationTableiOS
-//
-//  Created by André Jørgensen on 19/09/2019.
-//  Copyright © 2019 futurelab. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 
 //! Project version number for PaginationTableiOS.

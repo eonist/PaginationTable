@@ -16,6 +16,7 @@ extension Table {
    }
    /**
     * - Abstract: Universal method for scrolling motion complete
+    * - Note: Must be called from (scrollViewDidEndDragging and scrollViewDidEndDecelerating)
     * 1. Assert if you are at the bottom
     * 2. get items from remote service
     * 3. populate rowData
@@ -32,7 +33,7 @@ extension Table {
             self?.paginationIndex += Table.paginationAmount // Set the new pagination index
             self?.reloadData() // Fixme: ⚠️️ possibly move this bellow
             self?.isFetching = false
-            if self?.rowData.count == TrackPaginationService.getTotalItemsCount() {
+            if self?.rowData.count == TrackPaginationService.getTotalItemsCount() { // only needed if you need the footer at the bottom
                Swift.print("At the bottom, reveal footer ✅")
                self?.tableFooterView?.isHidden = false
                self?.tableFooterView?.frame = .init(x: 0, y: 0, width: UIScreen.main.bounds.width, height: Footer.height)

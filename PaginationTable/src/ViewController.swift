@@ -16,7 +16,8 @@ class ViewController: UIViewController {
       let table = Table(rowData: [], frame: .zero, style: .plain)
       view = table
       table.isFetching = true
-      TrackPaginationService.getItems(index: table.paginationRange.from, length: table.paginationRange.to - table.paginationRange.from) { result in
+      let range = (index: table.paginationRange.from, length: table.paginationRange.to - table.paginationRange.from)
+      TrackPaginationService.getItems(index: range.index, length: range.length) { result in
          DispatchQueue.main.async { [weak table] in
             guard let tracks: [Track] = try? result.get() else { return }
             Swift.print("ArtistName: \(String(describing: tracks.first?.artistName)) count: \(tracks.count)")
