@@ -25,7 +25,6 @@ class Table: UITableView, UITableViewDelegate, UITableViewDataSource, PaginateTa
       // Add Sections (Header / Footer)
       self.tableHeaderView = createHeader()
       self.tableFooterView = createFooter()
-      self.tableFooterView?.isHidden = true
    }
    /**
     * Boilerplate

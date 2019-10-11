@@ -33,7 +33,7 @@ extension Table {
             self?.paginationIndex += Table.paginationAmount // Set the new pagination index
             self?.reloadData() // Fixme: ⚠️️ possibly move this bellow
             self?.isFetching = false
-            if self?.rowData.count == TrackPaginationService.getTotalItemsCount() { // only needed if you need the footer at the bottom
+            if self?.rowData.count == self?.getTotalItemsCount() { // only needed if you need the footer at the bottom
                Swift.print("At the bottom, reveal footer ✅")
                self?.tableFooterView?.isHidden = false
                self?.tableFooterView?.frame = .init(x: 0, y: 0, width: UIScreen.main.bounds.width, height: Footer.height)
