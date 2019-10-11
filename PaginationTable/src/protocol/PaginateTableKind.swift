@@ -5,7 +5,7 @@ public protocol PaginateTableKind: AnyObject {
     * The current amount of cells (this grows as you load more data
     * - Note: this changes as more items are loaded, start with 0
     */
-   var paginationIndex: Int { get set }
+   var paginationIndex: Int { get }
    /**
     * A boolean that let's the code know if data is already loading or not, to avoid double fetching etc
     * - Note: Should be false at initiation
