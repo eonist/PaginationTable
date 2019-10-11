@@ -170,6 +170,7 @@
 		9D05885822F97CB000F0A2BE /* PaginationTable */ = {
 			isa = PBXGroup;
 			children = (
+				9DA80279235077720037C56C /* example */,
 				9D05886B22F98A8800F0A2BE /* src */,
 				9D05885922F97CB000F0A2BE /* AppDelegate.swift */,
 				9DF580582305394A005F336B /* assets.bundle */,
@@ -183,9 +184,7 @@
 		9D05886B22F98A8800F0A2BE /* src */ = {
 			isa = PBXGroup;
 			children = (
-				9D05886C22F98A8800F0A2BE /* ViewController.swift */,
 				9D10D79323337EF80059C578 /* protocol */,
-				9D05886D22F98A8800F0A2BE /* table */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -240,6 +239,15 @@
 				9D10D7A0233383790059C578 /* Info.plist */,
 			);
 			path = PaginationTableiOS;
+			sourceTree = "<group>";
+		};
+		9DA80279235077720037C56C /* example */ = {
+			isa = PBXGroup;
+			children = (
+				9D05886C22F98A8800F0A2BE /* ViewController.swift */,
+				9D05886D22F98A8800F0A2BE /* table */,
+			);
+			path = example;
 			sourceTree = "<group>";
 		};
 		9DF5806523054E01005F336B /* data */ = {

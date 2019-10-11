@@ -1,4 +1,5 @@
-[![](https://img.shields.io/badge/Protected_by-Hound-a873d1.svg)](https://houndci.com) [![codebeat badge](https://codebeat.co/badges/44f0bbfc-c9ce-4493-9362-2c742dde63df)](https://codebeat.co/projects/github-com-eonist-networksugar-master) [![Build Status](https://travis-ci.com/eonist/NetworkSugar.svg?branch=master)](https://travis-ci.com/eonist/NetworkSugar)
+[![Reviewed by Hound](https://img.shields.io/badge/Reviewed_by-Hound-8E64B0.svg)](https://houndci.com) [![codebeat badge](https://codebeat.co/badges/44f0bbfc-c9ce-4493-9362-2c742dde63df)](https://codebeat.co/projects/github-com-eonist-networksugar-master) 
+[![Build Status](https://travis-ci.com/eonist/NetworkSugar.svg?branch=master)](https://travis-ci.com/eonist/NetworkSugar)
 
 # Network sugar
 Sugar that makes swift networking less cumbersome

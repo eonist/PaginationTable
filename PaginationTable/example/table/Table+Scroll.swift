@@ -30,7 +30,6 @@ extension Table {
             guard let tracks: [Track] = try? result.get() else { return }
             Swift.print("ArtistName: \(String(describing: tracks.first?.artistName)) count: \(tracks.count)")
             self?.rowData += tracks
-            self?.paginationIndex += Table.paginationAmount // Set the new pagination index
             self?.reloadData() // Fixme: ⚠️️ possibly move this bellow
             self?.isFetching = false
             if self?.rowData.count == self?.getTotalItemsCount() { // only needed if you need the footer at the bottom

@@ -22,7 +22,6 @@ class ViewController: UIViewController {
             guard let tracks: [Track] = try? result.get() else { return }
             Swift.print("ArtistName: \(String(describing: tracks.first?.artistName)) count: \(tracks.count)")
             table?.rowData += tracks
-            table?.paginationIndex += Table.paginationAmount // Set the new pagination index
             table?.reloadData()
             table?.isFetching = false
             Swift.print("Reload table complete (scroll)")

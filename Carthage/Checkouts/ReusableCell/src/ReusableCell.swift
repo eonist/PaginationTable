@@ -1,3 +1,3 @@
 import UIKit
 
-class ReusableCell: UITableViewCell, ReusableCellKind {}
+open class ReusableCell: UITableViewCell, ReusableCellKind {}

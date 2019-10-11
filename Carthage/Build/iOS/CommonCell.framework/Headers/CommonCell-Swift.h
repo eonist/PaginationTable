@@ -190,7 +190,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC10CommonCell8BaseCell")
 @interface BaseCell : UITableViewCell
 /// Init
-- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
 /// Boilerplate
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
 @end
@@ -205,6 +205,7 @@ SWIFT_CLASS("_TtC10CommonCell8BaseCell")
 /// </ul>
 SWIFT_CLASS("_TtC10CommonCell8TextCell")
 @interface TextCell : BaseCell
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UITextField;
@@ -428,7 +429,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC10CommonCell8BaseCell")
 @interface BaseCell : UITableViewCell
 /// Init
-- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
 /// Boilerplate
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
 @end
@@ -443,6 +444,7 @@ SWIFT_CLASS("_TtC10CommonCell8BaseCell")
 /// </ul>
 SWIFT_CLASS("_TtC10CommonCell8TextCell")
 @interface TextCell : BaseCell
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UITextField;

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F12D0E332347822C004582FA /* UICollectionView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D0E312347817A004582FA /* UICollectionView+Reusable.swift */; };
+		F12D0E36234784D4004582FA /* ReusableCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D0E34234784B5004582FA /* ReusableCollectionCell.swift */; };
 		F1E4A85E2275795100E8993A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E4A85D2275795100E8993A /* AppDelegate.swift */; };
 		F1E4A8602275795100E8993A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E4A85F2275795100E8993A /* MainVC.swift */; };
 		F1E4A8652275795500E8993A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E4A8642275795500E8993A /* Assets.xcassets */; };
@@ -46,6 +48,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F12D0E312347817A004582FA /* UICollectionView+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Reusable.swift"; sourceTree = "<group>"; };
+		F12D0E34234784B5004582FA /* ReusableCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableCollectionCell.swift; sourceTree = "<group>"; };
 		F1E4A85A2275795100E8993A /* ReusableCellExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableCellExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E4A85D2275795100E8993A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1E4A85F2275795100E8993A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -127,8 +131,10 @@
 				F1E4A883227579E300E8993A /* NibLoadableView.swift */,
 				F1E4A884227579E300E8993A /* ReusableCellKind.swift */,
 				F1FA95B322A3FB88009088FB /* ReusableCell.swift */,
+				F12D0E34234784B5004582FA /* ReusableCollectionCell.swift */,
 				F1E4A885227579E300E8993A /* ReusableCellKind+Extension.swift */,
 				F1E4A882227579E300E8993A /* UITable+Reusable.swift */,
+				F12D0E312347817A004582FA /* UICollectionView+Reusable.swift */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -296,7 +302,9 @@
 			files = (
 				F1FA95B522A3FBC8009088FB /* ReusableCell.swift in Sources */,
 				F1E4A887227579E300E8993A /* NibLoadableView.swift in Sources */,
+				F12D0E36234784D4004582FA /* ReusableCollectionCell.swift in Sources */,
 				F1E4A886227579E300E8993A /* UITable+Reusable.swift in Sources */,
+				F12D0E332347822C004582FA /* UICollectionView+Reusable.swift in Sources */,
 				F1E4A888227579E300E8993A /* ReusableCellKind.swift in Sources */,
 				F1E4A889227579E300E8993A /* ReusableCellKind+Extension.swift in Sources */,
 			);

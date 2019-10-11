@@ -10,7 +10,7 @@ open class TextCell: BaseCell, ReusableCellKind {
     ///
     /// - Abstract: When you set the data, the diferent UI's will be updated
     ///
-   override public var data: CellDataKind? {
+   override open var data: CellDataKind? {
         didSet {
             guard let data: TextCellData = data as? TextCellData else { return }
             descriptionLabel.text = data.description
