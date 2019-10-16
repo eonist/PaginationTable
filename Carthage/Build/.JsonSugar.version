@@ -3,7 +3,7 @@
   "iOS" : [
     {
       "name" : "JSONSugar",
-      "hash" : "1040538918eae18e11fdf3ecafe58f53b3eb5d5bdd77bfffb19fa2bf623fe790",
+      "hash" : "601d583ce12b7dc0b3e87c80db89ce20b00a902d06a6e443e8cb3e4fb69d0a21",
       "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
     }
   ]

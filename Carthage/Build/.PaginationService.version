@@ -3,7 +3,7 @@
   "iOS" : [
     {
       "name" : "PaginationServiceiOS",
-      "hash" : "218339f4d34378f6c225ef7ce5edfc3e12faac9f93e80be20ac6518c4acc060d",
+      "hash" : "ec39d621a438e12df9b9daf3828bb60e1f0ef237a17cd460403d54bffb75d951",
       "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
     }
   ]
