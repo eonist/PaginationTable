@@ -6,7 +6,7 @@ extension PaginateTableKind where Self: UITableView {
    /**
     * Asserts if the table is scrolled all the way to the bottom
     */
-   public var isBottom: Bool { return (self.contentOffset.y + self.frame.size.height) >= self.contentSize.height }
+   public var isBottom: Bool { return (self.contentOffset.y + self.frame.height) >= self.contentSize.height }
    /**
     * Returns the next pagination range according to index and max possible items
     */
