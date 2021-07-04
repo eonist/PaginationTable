@@ -3,7 +3,6 @@
 ![Lang](https://img.shields.io/badge/Language-Swift%205.0-orange.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![SwiftLint Sindre](https://img.shields.io/badge/SwiftLint-Sindre-hotpink.svg)](https://github.com/sindresorhus/swiftlint-sindre)
-[![codebeat badge](https://codebeat.co/badges/04c1a754-6008-4f38-967f-97b0d25b71a8)](https://codebeat.co/projects/github-com-eonist-paginationtable-master)
 
 # PaginationTable
 Example of how pagination in a table works
@@ -24,3 +23,7 @@ Example of how pagination in a table works
 ### Requirements:
 - Backend-API that can provide the count of items
 - Backend-API that can return items for a range (startIndex, endIndex)
+
+### Todo:
+- add spm
+- add github actions
